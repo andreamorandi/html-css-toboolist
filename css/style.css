@@ -17,3 +17,45 @@ header h1{
     font-family: sans-serif;
     vertical-align: middle;
 }
+
+html{
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;
+}
+
+.container{
+    margin: 75px 250px 35px 250px;
+    background-color: white;
+    padding: 35px 75px 75px 75px;
+    border-radius: 10px;
+}
+
+.container button{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: solid #c5cbd0;
+    color: #d4d8dc;
+}
+
+.container button:hover{
+    background-color: #47adf1;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: solid #47adf1;
+    color: white;
+}
+
+.container hr{
+    margin: 0px -75px 0px -75px;
+    border: 2px solid #f6f8f9;
+}
