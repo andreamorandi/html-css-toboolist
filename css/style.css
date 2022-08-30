@@ -27,7 +27,7 @@ header{
 }
 
 .container{
-    margin: 75px 250px 35px 250px;
+    margin: 65px 250px 35px 250px;
     background-color: white;
     padding: 35px 75px 75px 75px;
     border-radius: 10px;
@@ -64,10 +64,11 @@ ul{
     list-style-type: none;
     font-size: 1.2rem;
     color: #444851;
+    font-family: sans-serif;
 }
 
 li{
-    margin-top: 7px;
+    margin-bottom: 20px;
 }
 
 .container .tick{
@@ -88,7 +89,7 @@ li{
 }
 
 .paragraph{
-    margin-top: 30px;
+    margin-top: 38px;
 }
 
 .container .cross{
@@ -102,4 +103,33 @@ li{
     vertical-align: middle;
     margin: 0px 5px;
     font-size: 0.8rem;
+}
+
+.label{
+    background-color: #45abea;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    border-radius: 15px;
+    padding: 9px 12px;
+}
+
+#violet{
+    background-color: #9c72e4;
+}
+
+#turquoise{
+    background-color: #64c0a9;
+}
+
+#orange{
+    background-color: #f29e33;
+}
+
+#pink{
+    background-color: #d863a1;
+}
+
+#lime{
+    background-color: #b0c926;
 }
