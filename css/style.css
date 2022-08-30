@@ -13,7 +13,7 @@ header img{
 header h1{
     display: inline-block;
     line-height: 135px;
-    font-size: 4em;
+    font-size: 4rem;
     font-family: sans-serif;
     vertical-align: middle;
 }
@@ -58,4 +58,48 @@ header{
 .container hr{
     margin: 0px -75px 0px -75px;
     border: 2px solid #f6f8f9;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #444851;
+}
+
+li{
+    margin-top: 7px;
+}
+
+.container .tick{
+    color: #7ccfbc;
+    border: 1px solid #7ccfbc;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.container .title{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.paragraph{
+    margin-top: 30px;
+}
+
+.container .cross{
+    color: #ea4237;
+    border: 1px solid #ea4237;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px 5px;
+    font-size: 0.8rem;
 }
