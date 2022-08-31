@@ -14,12 +14,16 @@ header h1{
     display: inline-block;
     line-height: 135px;
     font-size: 4rem;
-    font-family: sans-serif;
     vertical-align: middle;
 }
 
-html{
+body{
     background-color: #f6f8f9;
+}
+
+html{
+    font-family: sans-serif;
+    /*font-size: 62.5%;*/       /* COMODO PER AVERE DI BASE 10PX ANZICHE' 16PX COSI' 13PX AD ES. E' 1.3REM */
 }
 
 header{
@@ -64,7 +68,6 @@ ul{
     list-style-type: none;
     font-size: 1.2rem;
     color: #444851;
-    font-family: sans-serif;
 }
 
 li{
@@ -79,13 +82,12 @@ li{
     height: 1.4rem;
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
     margin: 0px 5px;
+    line-height: 1.4rem;
 }
 
 .container .title{
     font-size: 1rem;
-    font-family: sans-serif;
 }
 
 .paragraph{
@@ -100,15 +102,14 @@ li{
     height: 1.4rem;
     display: inline-block;
     text-align: center;
-    vertical-align: middle;
     margin: 0px 5px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    line-height: 1.4rem;
 }
 
 .label{
     background-color: #45abea;
     color: white;
-    font-family: sans-serif;
     font-size: 0.9rem;
     border-radius: 15px;
     padding: 9px 12px;
@@ -133,3 +134,5 @@ li{
 #lime{
     background-color: #b0c926;
 }
+
+/*  USARE EM PER PADDING E MARGIN   */
